@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mozilla Splash Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        header {
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .logo {
+            width: 50px;
+            height: auto;
+        }
+        .content {
+            background-color: #ddd;
+            padding: 20px;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 400px;
+            height: 225px;
+        }
+        .info {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .info h2 {
+            margin-top: 0;
+        }
+        .info p {
+            line-height: 1.5;
+        }
+        .info a {
+            color: red;
+            text-decoration: none;
+        }
+        .info a:hover {
+            text-decoration: underline;
+        }
+        .further-info {
+            display: flex;
+            justify-content: center;
+            background-color: #c62828;
+            padding: 20px;
+            gap: 15px;
+        }
+        .further-info img {
+            width: 100px;
+            height: auto;
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .red-panda img {
+            width: 100%;
+            max-width: 1200px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mozilla</h1>
+    <img src="firefox_logo.png" alt="Mozilla Logo" class="logo">
+</header>
+
+<div class="content">
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="info">
+        <h2>Rocking the free web</h2>
+        <p>
+            Mozilla is a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, 
+            so people worldwide can be informed contributors and creators of the Web. 
+        </p>
+        <p>
+            We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.
+        </p>
+        <p>
+            Click on the images below to find more information about the cool stuff Mozilla does. 
+            <a href="#">Red panda picture</a> by Mathias Appel.
+        </p>
+    </div>
+</div>
+
+<div class="further-info">
+    <a href="#"><img src="firefox_logo.png" alt="Firefox Logo"></a>
+    <a href="#"><img src="mozilla-dinosaur.png" alt="Mozilla Dinosaur"></a>
+    <a href="#"><img src="firefox-puzzle.png" alt="Firefox Puzzle"></a>
+    <a href="#"><img src="mdn-logo.png" alt="MDN Logo"></a>
+</div>
+
+<div class="red-panda">
+    <img src="red-panda.jpg" alt="Red Panda">
+</div>
+
+</body>
+</html>
