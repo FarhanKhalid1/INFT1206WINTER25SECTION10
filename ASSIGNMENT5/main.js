@@ -1,8 +1,6 @@
-
-//Author:Farhan Khalid 
-//Title: ASSIGNMENT 5
-//Date: 2025-04-11
-
+// Author: Farhan Khalid
+// Title: ASSIGNMENT 5
+// Date: 2025-04-11
 
 // functionality for showing/hiding the comments section
 
